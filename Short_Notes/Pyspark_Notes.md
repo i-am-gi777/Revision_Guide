@@ -77,8 +77,7 @@ df.filter(df.age>30).show()
 #write
 1. df_csv.write.mode("overwrite").option("header", True).csv("path")
 2. df_json.write.mode("overwrite").option("header", True).json("path")
-3. df_parquet.write.mode("overwrite").option("header", 
-True).parquet("path")
+3. df_parquet.write.mode("overwrite").option("header", True).parquet("path")
 
 #cache
 df.cache()
