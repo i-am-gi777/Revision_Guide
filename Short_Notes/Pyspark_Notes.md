@@ -1,22 +1,31 @@
 Spark : unifield computing engine. with set of liabrires for prarllel data 
 processing on computer clusters
+
 Pyspark: spark's python API, allowing to write spark applications in 
 python instead of java/scala
+
 Apachenspark: distributed computing framework for big data processing.
 RDD: (resilient distributed dataset) the fundamental data structure of 
 spark -immutable, distributed collection.
+
 Transformations: lazy operation that defined a new rdd/dataframe(eg:  map 
 filter, select)
+
 Actions: trigger computation and return result (eg: count,collect,show)
+
 DataFrame: disubuted collection of data organized in a named columns
+
 SparkSql: a spark module for running sql queries on structured data. you 
 registered dataframe as temporary view and quey them with sql
+
 Lazy evaluation: in spark transformation are not executed immediately. 
 they are recorded in dag(directed acyclic graph) execution happens only 
 when an action called
 -optimize execution plan
 -avoids unnecessary computations
+
 caching: store dataframe /rdd in memory only.
+
 persistence: more flexible alloew storage in memory disk or both (with 
 different storage levels) use when data is reused multiple times in 
 iterrative algoorithms(eg : ML)
