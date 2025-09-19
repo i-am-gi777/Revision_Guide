@@ -5,6 +5,7 @@ Pyspark: spark's python API, allowing to write spark applications in
 python instead of java/scala
 
 Apachenspark: distributed computing framework for big data processing.
+
 RDD: (resilient distributed dataset) the fundamental data structure of 
 spark -immutable, distributed collection.
 
